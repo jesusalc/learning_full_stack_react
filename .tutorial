@@ -49,3 +49,4 @@
 : 1483803908:0;echo "public/dist/" >> .gitignore
 : 1483803910:0;gsb
 : 1483803915:0;changed app to use require react
+: 1483804095:0;added more styling
