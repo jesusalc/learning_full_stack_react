@@ -26,3 +26,5 @@
 : 1483801365:0;echo ".DS_Store" >> .gitignore
 : 1483801366:0;gsb
 : 1483801389:0;added react 15.1 build files and ogt first index.html contents
+: 1483801701:0;gsb
+: 1483801709:0;added first element
