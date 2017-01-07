@@ -1,5 +1,23 @@
 const React = require('react')
 const ReactDOM = require('react-dom')
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import TextField from 'material-ui/TextField';
+import {orange500, blue500} from 'material-ui/styles/colors';
+
+const styles = {
+  errorStyle: {
+    color: orange500,
+  },
+  underlineStyle: {
+    borderColor: orange500,
+  },
+  floatingLabelStyle: {
+    color: orange500,
+  },
+  floatingLabelFocusStyle: {
+    color: blue500,
+  },
+};
 
 const Layout = React.createClass({
     propTypes:{
@@ -24,7 +42,6 @@ const Layout = React.createClass({
 const Email = React.createClass({
     render: function(){
         return <input type="email" name="email" required data-info="An active email account is needed to gain access" title="An active email account is needed to gain access" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxLength="255" placeholder="Your email" max id="email"  />
-
     }
 })
 
@@ -53,6 +70,12 @@ const Login = React.createClass({
                       <a href="register.html" className="inlink" > Register </a>
                       | <a href="#request-reset-password" className="inlink" > Reset Password </a>
                     </p> 
+                             <TextField
+          floatingLabelText="Styled Floating Label Text"
+          floatingLabelStyle={styles.floatingLabelStyle}
+          floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
+        />
+
                     <button type="submit" >Login</button>
                 </form>
 
@@ -74,7 +97,9 @@ const Register = React.createClass({
 })
 
 
-ReactDOM.render(<Layout title="Login" >
-  <Register></Register>
-  <Login></Login>
-</Layout> , document.getElementById('app'))
+ReactDOM.render(<MuiThemeProvider>
+    <Layout title="Login" >
+      <Register></Register>
+      <Login></Login>
+    </Layout>
+  </MuiThemeProvider>, document.getElementById('app'))

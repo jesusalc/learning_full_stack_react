@@ -61,3 +61,6 @@
 : 1483807625:0;fixed typos 
 : 1483807891:0;separated email from forms as common element
 : 1483807966:0;added email component into login and register 
+: 1483808064:0;npm i -S material.ui
+: 1483808069:0;npm i -S material-ui
+: 1483808548:0;added material ui 
