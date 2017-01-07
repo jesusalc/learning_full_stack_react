@@ -33,3 +33,4 @@
 : 1483802226:0;added className ans browserify fix
 : 1483802316:0;exit
 : 1483802320:0;defined
+: 1483802531:0;defined h1 inside the render instead with firefox set to insecure local file execution
