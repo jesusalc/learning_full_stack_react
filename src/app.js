@@ -20,6 +20,16 @@ const Layout = React.createClass({
     }
 })
 
+
+const Email = React.createClass({
+    render: function(){
+        return <input type="email" name="email" required data-info="An active email account is needed to gain access" title="An active email account is needed to gain access" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxLength="255" placeholder="Your email" max id="email"  />
+
+    }
+})
+
+
+
 const Login = React.createClass({
     getInitialState: function() {
       return {remmber:true}
@@ -35,12 +45,14 @@ const Login = React.createClass({
                     <input type="hidden" name="remember_me" value="0" />
                     <p>
                         <label htmlFor="remember-me">
-                            <input type="checkbox" name="remember-me" value="1" checked="checked" onChange={this.OnChangeRemmber} id="remember-me" />
+                            <input type="checkbox" name="remember-me" value="1" defaultChecked onChange={this.OnChangeRemmber} id="remember-me" />
                             Remember me
                         </label>
                     </p>
-                    <a href="register.html" className="inlink" > Register </a>
-                    <a href="#request-reset-password" className="inlink" > Reset Password </a>
+                    <p>
+                      <a href="register.html" className="inlink" > Register </a>
+                      | <a href="#request-reset-password" className="inlink" > Reset Password </a>
+                    </p> 
                     <button type="submit" >Login</button>
                 </form>
 
@@ -64,4 +76,5 @@ const Register = React.createClass({
 
 ReactDOM.render(<Layout title="Login" >
   <Register></Register>
+  <Login></Login>
 </Layout> , document.getElementById('app'))
