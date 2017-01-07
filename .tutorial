@@ -15,3 +15,10 @@
 : 1483800134:0;l
 : 1483800137:0;gsb
 : 1483800145:0;added .tutorial files
+: 1483800575:0;cp ../../coup/reactlesson2/package.json . 
+: 1483800580:0;cp ../../coup/reactlesson2/webpack.config.js .
+: 1483800613:0;git remote -v
+: 1483800661:0;mkdir public src
+: 1483800665:0;npm install
+: 1483800735:0;gsb
+: 1483800749:0;added package.json and webpack.config.js
