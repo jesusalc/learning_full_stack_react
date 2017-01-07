@@ -28,3 +28,6 @@
 : 1483801389:0;added react 15.1 build files and ogt first index.html contents
 : 1483801701:0;gsb
 : 1483801709:0;added first element
+: 1483801770:0;npm list babel-core
+: 1483802206:0;gsb
+: 1483802226:0;added className ans browserify fix
