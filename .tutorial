@@ -42,3 +42,5 @@
 : 1483803461:0;ls
 : 1483803544:0;webpack
 : 1483803722:0;fixed to make it work hello world
+: 1483803797:0;webpack -w 
+: 1483803823:0;changed app to use require react

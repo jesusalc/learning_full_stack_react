@@ -1,3 +1,4 @@
-//const h1 = React.createElement('h1', {className:'success'}, "Hello world");
+const React = require('react')
+const ReactDOM = require('react-dom')
 
 ReactDOM.render(<h1  className="success" htmlFor="" >Hello World!</h1>, document.getElementById('app'))
