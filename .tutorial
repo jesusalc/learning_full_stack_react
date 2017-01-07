@@ -60,3 +60,4 @@
 : 1483807109:0;added register class
 : 1483807625:0;fixed typos 
 : 1483807891:0;separated email from forms as common element
+: 1483807966:0;added email component into login and register 

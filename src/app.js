@@ -40,7 +40,7 @@ const Login = React.createClass({
     render: function(){
         return                 <form method="post" acceptCharset="utf-8" action="/u/login">
                     <input type="hidden" name="_method" value="POST"  />
-                    <input type="email" name="email" required="required" placeholder="Your email" id="email"  />
+                    <Email />
                     <input type="password" name="password" required="required" placeholder="Password" id="password"  />
                     <input type="hidden" name="remember_me" value="0" />
                     <p>
@@ -63,7 +63,7 @@ const Register = React.createClass({
     render: function(){
         return                 <form method="post" acceptCharset="utf-8" action="/u/register">
                     <input type="hidden" name="_method" value="POST"  />
-                    <input type="email" name="email" required data-info="An active email account is needed to gain access" title="An active email account is needed to gain access" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" maxLength="255" placeholder="Your email" max id="email"  />
+                    <Email />
                     <input type="password" name="password" required="required" placeholder="Password" id="password"  />
                     <input type="password" name="password2" required="required" placeholder="Password Confirm" id="password2"  />
                     <span className="col-p100 info" ></span>
