@@ -1,0 +1,17 @@
+: 1483639354:0;mkdir -p css build 
+: 1483639381:0;touch -p login.html register.html index.html app.js 
+: 1483639388:0;touch login.html register.html index.html app.js 
+: 1483639426:0;git config --local user.name "jesusalc"
+: 1483639440:0;git config --local user.email "jesusalc@gmail.com"
+: 1483639489:0;add first commit 
+: 1483800084:0;ps
+: 1483800084:0;gsb
+: 1483800094:0;ls
+: 1483800096:0;l
+: 1483800111:0;mv .dir_bash_history .tutorial
+: 1483800128:0;ls
+: 1483800130:0;l
+: 1483800133:0;rm .dir_bash_history
+: 1483800134:0;l
+: 1483800137:0;gsb
+: 1483800145:0;added .tutorial files
