@@ -34,3 +34,7 @@
 : 1483802316:0;exit
 : 1483802320:0;defined
 : 1483802531:0;defined h1 inside the render instead with firefox set to insecure local file execution
+: 1483803370:0;ls
+: 1483803392:0;npm list
+: 1483803439:0;gsb
+: 1483803450:0;added browser shit that do not work 

@@ -1,3 +1,3 @@
-const h1 = React.createElement('h1', {className:'success'}, "Hello world");
+//const h1 = React.createElement('h1', {className:'success'}, "Hello world");
 
-ReactDOM.render(h1, document.getElementById('app'))
+ReactDOM.render(<h1  className="success" htmlFor="" >Hello World!</h1>, document.getElementById('app'))
