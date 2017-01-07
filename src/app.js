@@ -2,6 +2,9 @@ const React = require('react')
 const ReactDOM = require('react-dom')
 
 const Layout = React.createClass({
+    propTypes:{
+      chidren: React.PropTypes.element.isRequired
+    },
     render: function(){
         return <div className="overlay">
             <div className="box">
@@ -21,7 +24,8 @@ const Login = React.createClass({
     render: function(){
         return                 <form method="post" accept-charset="utf-8" action="/u/login">
                     <input type="hidden" name="_method" value="POST"  />
-                    <input type="email" name="email" required="required" placeholder="Password" id="password"  />
+                    <input type="email" name="email" required="required" placeholder="Your email" id="email"  />
+                    <input type="password" name="password" required="required" placeholder="Password" id="password"  />
                     <input type="hidden" name="remember_me" value="0" />
                     <p>
                         <label htmlFor="remember-me">
@@ -29,8 +33,8 @@ const Login = React.createClass({
                             Remember me
                         </label>
                     </p>
-                    <a href="register.html" className="inlink" >Register</a>
-                    <a href="#request-reset-password" className="inlink" >Reset Password</a>
+                    <a href="register.html" className="inlink" > Register </a>
+                    <a href="#request-reset-password" className="inlink" > Reset Password </a>
                     <button type="submit" >Login</button>
                 </form>
 
