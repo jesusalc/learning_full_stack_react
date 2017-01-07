@@ -3,9 +3,9 @@ const ReactDOM = require('react-dom')
 
 const Layout = React.createClass({
     render: function(){
-        return <div class="overlay">
-            <div class="box">
-                <h2>Title</h2>
+        return <div className="overlay">
+            <div className="box">
+                <h2>{this.props.title}</h2>
                
             </div>
             <footer>By signing up, you are agreeing to our 
@@ -17,4 +17,4 @@ const Layout = React.createClass({
     }
 })
 
-ReactDOM.render(<Layout />, document.getElementById('app'))
+ReactDOM.render(<Layout title="Login" />, document.getElementById('app'))
