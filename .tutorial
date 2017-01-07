@@ -22,3 +22,7 @@
 : 1483800665:0;npm install
 : 1483800735:0;gsb
 : 1483800749:0;added package.json and webpack.config.js
+: 1483801349:0;gsb
+: 1483801365:0;echo ".DS_Store" >> .gitignore
+: 1483801366:0;gsb
+: 1483801389:0;added react 15.1 build files and ogt first index.html contents
