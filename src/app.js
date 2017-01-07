@@ -70,13 +70,7 @@ const Login = React.createClass({
                       <a href="register.html" className="inlink" > Register </a>
                       | <a href="#request-reset-password" className="inlink" > Reset Password </a>
                     </p> 
-                             <TextField
-          floatingLabelText="Styled Floating Label Text"
-          floatingLabelStyle={styles.floatingLabelStyle}
-          floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
-        />
-
-                    <button type="submit" >Login</button>
+                    <RaisedButton label="Login" type="submit" primary style={style} />
                 </form>
 
     }
@@ -90,7 +84,8 @@ const Register = React.createClass({
                     <input type="password" name="password" required="required" placeholder="Password" id="password"  />
                     <input type="password" name="password2" required="required" placeholder="Password Confirm" id="password2"  />
                     <span className="col-p100 info" ></span>
-                    <button type="submit" >Register</button>
+                    <RaisedButton label="Register" type="submit" primary style={style} />
+                    
                 </form>
 
     }
