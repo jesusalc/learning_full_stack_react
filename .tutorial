@@ -38,3 +38,7 @@
 : 1483803392:0;npm list
 : 1483803439:0;gsb
 : 1483803450:0;added browser shit that do not work 
+: 1483803460:0;mv app.js src
+: 1483803461:0;ls
+: 1483803544:0;webpack
+: 1483803722:0;fixed to make it work hello world

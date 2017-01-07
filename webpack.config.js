@@ -9,7 +9,7 @@ const config = {
   },
   // devtool: IS_PROD ? 'source-map' : 'cheap-eval-source-map',
   devtool: 'source-map',
-  entry: './src',
+  entry: './src/app.js',
   output: {
     path: path.resolve(__dirname, 'public/dist'),
     filename: 'app.js',
