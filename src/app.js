@@ -1,9 +1,9 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import TextField from 'material-ui/TextField';
-import {orange500, blue500} from 'material-ui/styles/colors';
-import RaisedButton from 'material-ui/RaisedButton';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import TextField from 'material-ui/TextField'
+import {orange500, blue500} from 'material-ui/styles/colors'
+import RaisedButton from 'material-ui/RaisedButton'
 
 const style = {
   margin: 12,
@@ -24,12 +24,9 @@ const styles = {
   },
 }
 
-const Layout = React.createClass({
-    propTypes:{
-      children: React.PropTypes.element.isRequired
-    },
-    render: function(){
-        return <div className="overlay">
+class Layout  extends React.Component {
+    render() { 
+      return <div className="overlay">
             <div className="box">
                 <h2>{this.props.title}</h2>
                 {this.props.children}
@@ -41,11 +38,11 @@ const Layout = React.createClass({
             </footer>
         </div>
     }
-})
+}
 
 
-const Email = React.createClass({
-    render: function(){
+class Email extends React.Component {
+    render() {
         return <TextField 
           type="email" 
           name="email" 
@@ -57,46 +54,47 @@ const Email = React.createClass({
           floatingLabelFocusStyle={styles.floatingLabelFocusStyle}
           id="email"  />
     }
-})
+}
 
-const Password = React.createClass({
-    render: function(){
+class Password extends React.Component {
+    render() {
         return <TextField 
           type="password" 
           name="password" 
           required 
           id="password" 
           floatingLabelText="Password" 
-          pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+          pattern="^[a-z0-9._%+-]$" 
           maxLength="255" 
           floatingLabelStyle={styles.floatingLabelStyle}
           floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
     }
-})
+}
 
-const PasswordConfirm = React.createClass({
-    render: function(){
+class PasswordConfirm extends React.Component {
+    render() {
         return <TextField 
           type="password" 
           name="password2" 
           required 
           id="password2" 
           floatingLabelText="Password Confirm" 
-          pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+          pattern="^[a-z0-9._%+-]$" 
           maxLength="255" 
           floatingLabelStyle={styles.floatingLabelStyle}
           floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
     }
-})
+}
 
-const Login = React.createClass({
-    getInitialState: function() {
-      return {remmber:true}
-    },
-    OnChangeRemmber: function(e){
+class Login extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {remmber:true}
+    }
+    OnChangeRemmber(e) {
 
-    },
-    render: function(){
+    }
+    render() {
         return <form method="post" acceptCharset="utf-8" action="/u/login">
             <input type="hidden" name="_method" value="POST"  />
             <Email />
@@ -117,10 +115,10 @@ const Login = React.createClass({
         </form>
 
     }
-})
+}
 
-const Register = React.createClass({
-    render: function(){
+class Register extends React.Component {
+    render() {
         return <form method="post" acceptCharset="utf-8" action="/u/register">
             <input type="hidden" name="_method" value="POST"  />
             <Email />
@@ -131,7 +129,7 @@ const Register = React.createClass({
         </form>
 
     }
-})
+}
 
 
 ReactDOM.render(<MuiThemeProvider>
