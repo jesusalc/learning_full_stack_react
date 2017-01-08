@@ -69,3 +69,6 @@
 : 1483809287:0;gsb
 : 1483809300:0;upgraded forms inputs with material ui
 : 1483901041:0;upgraded to ecma 6 app.js
+: 1483901309:0;npm i -S react-tap-event-plugin 
+: 1483901727:0;gsb
+: 1483901737:0;fixed missing touch screen pluging
