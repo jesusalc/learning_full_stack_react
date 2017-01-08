@@ -93,12 +93,13 @@ class Password extends React.Component {
     let ret = [<TextField
       key="password"
       type="password"
-      name="password"
+      name="password1"
       required
       id="password"
       floatingLabelText="Password"
       pattern="^[a-z0-9._%+-]$"
       maxLength="255"
+      value={this.state.password1}
       onChange={this.onChange}
       floatingLabelStyle={styles.floatingLabelStyle}
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />]
@@ -112,6 +113,7 @@ class Password extends React.Component {
       floatingLabelText="Password Confirm"
       pattern="^[a-z0-9._%+-]$"
       maxLength="255"
+      value={this.state.password2}
       onChange={this.onChange}
       floatingLabelStyle={styles.floatingLabelStyle}
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
@@ -119,6 +121,8 @@ class Password extends React.Component {
     if (this.state.password2.length && this.state.password1 != this.state.password2) {
       msg = <div className="error-message">Both passwords must be the same</div>
     }
+    console.log("password1:" + this.state.password1)
+    console.log("password2:" + this.state.password2)
     return <div>{ret}{msg}</div>
   }
 }
