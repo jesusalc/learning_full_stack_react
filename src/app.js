@@ -80,7 +80,16 @@ class PasswordConfirm extends React.Component {
 }
 
 class Password extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {password1: '', password2: ''}
+    this.onChange = this.onChange.bind(this)
+  }
+  onChange({target}){
+    this.setState({[target.name]: target.value})
+  }
   render() {
+    let msg = ""
     let ret = [<TextField
       key="password"
       type="password"
@@ -90,6 +99,7 @@ class Password extends React.Component {
       floatingLabelText="Password"
       pattern="^[a-z0-9._%+-]$"
       maxLength="255"
+      onChange={this.onChange}
       floatingLabelStyle={styles.floatingLabelStyle}
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />]
     if (this.props.confirm) {
@@ -102,10 +112,14 @@ class Password extends React.Component {
       floatingLabelText="Password Confirm"
       pattern="^[a-z0-9._%+-]$"
       maxLength="255"
+      onChange={this.onChange}
       floatingLabelStyle={styles.floatingLabelStyle}
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
     }
-    return <div>{ret}</div>
+    if (this.state.password2.length && this.state.password1 != this.state.password2) {
+      msg = <div className="error-message">Both passwords must be the same</div>
+    }
+    return <div>{ret}{msg}</div>
   }
 }
 
@@ -114,6 +128,7 @@ class Login extends React.Component {
   constructor(props) {
     super(props);
     this.state = { remmber: true }
+    this.onChange = this.OnChangeRemmber.bind(this)
   }
   OnChangeRemmber(e) {
 
