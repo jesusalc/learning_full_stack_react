@@ -121,8 +121,6 @@ class Password extends React.Component {
     if (this.state.password2.length && this.state.password1 != this.state.password2) {
       msg = <div className="error-message">Both passwords must be the same</div>
     }
-    console.log("password1:" + this.state.password1)
-    console.log("password2:" + this.state.password2)
     return <div>{ret}{msg}</div>
   }
 }
