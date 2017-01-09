@@ -81,3 +81,8 @@
 : 1483952630:0;ls
 : 1483952636:0;gsb
 : 1483952646:0;added ecma 6
+: 1483952665:0;touch simple_http_server.js
+: 1483953042:0;npm i -S http
+: 1483953070:0;npm i -S isarray
+: 1483953080:0;node simple_http_server.js
+: 1483953413:0;added simple ecma 6 http server
