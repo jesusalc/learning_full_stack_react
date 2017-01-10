@@ -16,10 +16,10 @@ app.get('/blog/*.html', (req, res) => {
 
 app.route('/form') 
   .get((req, res) => {
-    res.send('Hello World!')
+    res.send('You would see a Form!')
   }) 
   .post((req, res) => {
-    res.send('Hello World!')
+    res.send('You would post a form!')
   }) 
 
 app.listen(port, () => {
