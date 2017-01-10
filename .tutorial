@@ -100,3 +100,8 @@
 : 1484030429:0;gsb
 : 1484030444:0;added express ecam 6 simple server
 : 1484030476:0;added descriptions to route
+: 1484030517:0;mkdir private
+: 1484030528:0;touch private/form.html
+: 1484030749:0;node index.js
+: 1484030829:0;gsb
+: 1484030850:0;created a simple form in express js
