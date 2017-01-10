@@ -107,3 +107,15 @@
 : 1484037066:0;express sample
 : 1484037494:0;cd sample
 : 1484037575:0;added all express generated project
+: 1484037860:0;touch webpack.config.js
+: 1484037916:0;npm i -S webpack react react-dom babel-core babel-preset-es2015 babel-preset-react babel-loader
+: 1484038043:0;ls
+: 1484038056:0;ll
+: 1484038067:0;cat login.html
+: 1484038069:0;cat register.html
+: 1484038070:0;rm login.html
+: 1484038072:0;rm register.html
+: 1484038086:0;ll
+: 1484038087:0;l
+: 1484038092:0;gsb
+: 1484038100:0;added webpack support
