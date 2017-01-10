@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel --presets es2015 src/*.js -o public/bundle.js",
     "test": "jest",
-    "start": "node server.js",
+    "start": "webpack -d && node index",
     "webpack": "webpack",
     "webpack:watch": "webpack -w",
     "watchscss": "nodemon -e scss -x \"npm run build-css\""

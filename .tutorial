@@ -1,15 +1,3 @@
-: 1483801365:0;echo ".DS_Store" >> .gitignore
-: 1483801389:0;added react 15.1 build files and ogt first index.html contents
-: 1483801709:0;added first element
-: 1483801770:0;npm list babel-core
-: 1483802226:0;added className ans browserify fix
-: 1483802320:0;defined
-: 1483802531:0;defined h1 inside the render instead with firefox set to insecure local file execution
-: 1483803392:0;npm list
-: 1483803450:0;added browser shit that do not work 
-: 1483803460:0;mv app.js src
-: 1483803544:0;webpack
-: 1483803722:0;fixed to make it work hello world
 : 1483803797:0;webpack -w 
 : 1483803881:0;git rm --cached public/dist
 : 1483803886:0;git rm -rf --cached public/dist
@@ -64,12 +52,10 @@
 : 1484031449:0;node index.js
 : 1484031857:0;added express middleware
 : 1484036039:0;npm i -G express-generator
-: 1484036058:0;cd ..
 : 1484036083:0;express
 : 1484036706:0;nvm lis
 : 1484036775:0;command -v nvm
 : 1484036876:0;nvm upgrade
-: 1484037005:0;exit
 : 1484037014:0;node ls
 : 1484037019:0;nvm ls
 : 1484037023:0;npm -g list
@@ -80,21 +66,17 @@
 : 1484037494:0;cd sample
 : 1484037575:0;added all express generated project
 : 1484037860:0;touch webpack.config.js
-: 1484037916:0;npm i -S webpack react react-dom babel-core babel-preset-es2015 babel-preset-react babel-loader
 : 1484038043:0;ls
 : 1484038067:0;cat login.html
 : 1484038069:0;cat register.html
 : 1484038070:0;rm login.html
 : 1484038072:0;rm register.html
 : 1484038086:0;ll
-: 1484038092:0;gsb
 : 1484038100:0;added webpack support
 : 1484038210:0;l
 : 1484038218:0;ls src
 : 1484038232:0;ls private
 : 1484038504:0;cd src
-: 1484038557:0;webpack -d
-: 1484038574:0;webpack 
 : 1484038656:0;git log
 : 1484038673:0;gco a4dd1a402bd61dcace66c76e2574f76c2f55191e
 : 1484038715:0;exit
@@ -104,15 +86,31 @@
 : 1484038828:0;npm prune
 : 1484038856:0;webpack -d
 : 1484038860:0;webpack 
-: 1484038870:0;npm install
-: 1484038877:0;webpack
 : 1484038922:0;rm -rf node_modules
 : 1484038930:0;npm install
-: 1484038982:0;webpack
 : 1484039006:0;mv src/app.jsx src/app.js
-: 1484039011:0;webpack
 : 1484039042:0;fixed webpack config 
 : 1484039075:0;npm i -S webpack react react-dom babel-core babel-preset-es2015 babel-preset-react babel-loader
 : 1484039520:0;cd ..
 : 1484040134:0;gsb
 : 1484040139:0;added webpack again
+: 1484040145:0;..
+: 1484040148:0;React-Redux-Tick-Tack-Toe
+: 1484040235:0;webpack
+: 1484040242:0;gsb
+: 1484040264:0;pwd
+: 1484040293:0;l
+: 1484040311:0;pwd
+: 1484040312:0;l
+: 1484051929:0;cd ..
+: 1484054765:0;ls
+: 1484054767:0;gsb
+: 1484054877:0;npm start
+: 1484055169:0;ls /data
+: 1484055179:0;mkdir -p /data/db
+: 1484055197:0;sudo mkdir -p /data/db
+: 1484055249:0;sudo chown -R $USER /data/db
+: 1484055259:0;mongodb 
+: 1484055261:0;mongo 
+: 1484055289:0;adding mongo support
+: 1484055296:0;started mongo support
