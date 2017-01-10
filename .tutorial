@@ -99,3 +99,16 @@
 : 1484038673:0;gco a4dd1a402bd61dcace66c76e2574f76c2f55191e
 : 1484038715:0;exit
 : 1484038726:0;failed webpack config 
+: 1484038813:0;npm install 
+: 1484038821:0;npm purge
+: 1484038828:0;npm prune
+: 1484038856:0;webpack -d
+: 1484038860:0;webpack 
+: 1484038870:0;npm install
+: 1484038877:0;webpack
+: 1484038922:0;rm -rf node_modules
+: 1484038930:0;npm install
+: 1484038982:0;webpack
+: 1484039006:0;mv src/app.jsx src/app.js
+: 1484039011:0;webpack
+: 1484039042:0;fixed webpack config 

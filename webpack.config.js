@@ -8,7 +8,7 @@ const path = require('path'),
         },
         // devtool: IS_PROD ? 'source-map' : 'cheap-eval-source-map',
         devtool: 'source-map',
-        entry: './src/app.jsx',
+        entry: './src/app.js',
         output: {
           path: path.resolve(__dirname, 'public/dist'),
           filename: 'app.js',
