@@ -114,3 +114,7 @@
 : 1484055261:0;mongo 
 : 1484055289:0;adding mongo support
 : 1484055296:0;started mongo support
+: 1484055414:0;mongod
+: 1484055427:0;mongo
+: 1484056426:0;npm i -S mongojs
+: 1484056455:0;added mongo support
