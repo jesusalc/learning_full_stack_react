@@ -112,3 +112,7 @@
 : 1484039006:0;mv src/app.jsx src/app.js
 : 1484039011:0;webpack
 : 1484039042:0;fixed webpack config 
+: 1484039075:0;npm i -S webpack react react-dom babel-core babel-preset-es2015 babel-preset-react babel-loader
+: 1484039520:0;cd ..
+: 1484040134:0;gsb
+: 1484040139:0;added webpack again
