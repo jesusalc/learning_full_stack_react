@@ -5,49 +5,32 @@
 : 1483639440:0;git config --local user.email "jesusalc@gmail.com"
 : 1483639489:0;add first commit 
 : 1483800084:0;ps
-: 1483800084:0;gsb
-: 1483800094:0;ls
-: 1483800096:0;l
 : 1483800111:0;mv .dir_bash_history .tutorial
-: 1483800128:0;ls
-: 1483800130:0;l
 : 1483800133:0;rm .dir_bash_history
 : 1483800134:0;l
-: 1483800137:0;gsb
 : 1483800145:0;added .tutorial files
 : 1483800575:0;cp ../../coup/reactlesson2/package.json . 
 : 1483800580:0;cp ../../coup/reactlesson2/webpack.config.js .
 : 1483800613:0;git remote -v
 : 1483800661:0;mkdir public src
 : 1483800665:0;npm install
-: 1483800735:0;gsb
 : 1483800749:0;added package.json and webpack.config.js
-: 1483801349:0;gsb
 : 1483801365:0;echo ".DS_Store" >> .gitignore
-: 1483801366:0;gsb
 : 1483801389:0;added react 15.1 build files and ogt first index.html contents
-: 1483801701:0;gsb
 : 1483801709:0;added first element
 : 1483801770:0;npm list babel-core
-: 1483802206:0;gsb
 : 1483802226:0;added className ans browserify fix
-: 1483802316:0;exit
 : 1483802320:0;defined
 : 1483802531:0;defined h1 inside the render instead with firefox set to insecure local file execution
-: 1483803370:0;ls
 : 1483803392:0;npm list
-: 1483803439:0;gsb
 : 1483803450:0;added browser shit that do not work 
 : 1483803460:0;mv app.js src
-: 1483803461:0;ls
 : 1483803544:0;webpack
 : 1483803722:0;fixed to make it work hello world
 : 1483803797:0;webpack -w 
-: 1483803823:0;changed app to use require react
 : 1483803881:0;git rm --cached public/dist
 : 1483803886:0;git rm -rf --cached public/dist
 : 1483803908:0;echo "public/dist/" >> .gitignore
-: 1483803910:0;gsb
 : 1483803915:0;changed app to use require react
 : 1483804095:0;added more styling
 : 1483804865:0;added login form 
@@ -66,20 +49,16 @@
 : 1483808548:0;added material ui 
 : 1483808641:0;upgraded buttons to material ui buttons 
 : 1483808689:0;deleted bootstap shit in html 
-: 1483809287:0;gsb
 : 1483809300:0;upgraded forms inputs with material ui
 : 1483901041:0;upgraded to ecma 6 app.js
 : 1483901309:0;npm i -S react-tap-event-plugin 
-: 1483901727:0;gsb
 : 1483901737:0;fixed missing touch screen pluging
 : 1483904073:0;added key to password and email 
 : 1483904744:0;added onChange to passwords
-: 1483905393:0;gsb
 : 1483905403:0;added password state validation 
 : 1483906010:0;npm i -D jest-cli
 : 1483909362:0;npm i -G jest-cli
 : 1483952630:0;ls
-: 1483952636:0;gsb
 : 1483952646:0;added ecma 6
 : 1483952665:0;touch simple_http_server.js
 : 1483953042:0;npm i -S http
@@ -87,22 +66,16 @@
 : 1483953080:0;node simple_http_server.js
 : 1483953413:0;added simple ecma 6 http server
 : 1484028259:0;npm i -G http-server
-: 1484028272:0;gsb
 : 1484028279:0;added http-server 
-: 1484028649:0;http-server ./ -a localhost -p 3000
-: 1484028656:0;npm run http-server ./ -a localhost -p 3000
 : 1484028686:0;npm i -S http-server
 : 1484028695:0;npm run http-server ./ -a localhost -p 3000
 : 1484028698:0;http-server ./ -a localhost -p 3000
 : 1484028904:0;npm i -S express
 : 1484029022:0;touch index.js
-: 1484030026:0;node index.js
-: 1484030429:0;gsb
 : 1484030444:0;added express ecam 6 simple server
 : 1484030476:0;added descriptions to route
 : 1484030517:0;mkdir private
 : 1484030528:0;touch private/form.html
-: 1484030749:0;node index.js
 : 1484030829:0;gsb
 : 1484030850:0;created a simple form in express js
 : 1484030939:0;npm i -S body-parser
@@ -111,3 +84,26 @@
 : 1484031166:0;gsb
 : 1484031449:0;node index.js
 : 1484031857:0;added express middleware
+: 1484036032:0;gsb
+: 1484036039:0;npm i -G express-generator
+: 1484036058:0;cd ..
+: 1484036069:0;express sample
+: 1484036083:0;express
+: 1484036690:0;exit
+: 1484036702:0;express sample
+: 1484036706:0;nvm lis
+: 1484036713:0;nvm upgrade
+: 1484036775:0;command -v nvm
+: 1484036864:0;exit
+: 1484036870:0;nvm ls
+: 1484036876:0;nvm upgrade
+: 1484037005:0;exit
+: 1484037014:0;node ls
+: 1484037019:0;nvm ls
+: 1484037023:0;npm -g list
+: 1484037033:0;npm -g list --depth 0 
+: 1484037053:0;npm -g i express
+: 1484037061:0;npm -g i express-generator
+: 1484037066:0;express sample
+: 1484037494:0;cd sample
+: 1484037575:0;added all express generated project
