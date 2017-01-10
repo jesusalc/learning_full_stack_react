@@ -23,7 +23,7 @@ app.get('/blog/*.html', (req, res) => {
 
 app.route('/form') 
   .get((req, res) => {
-    res.sendFile(__dirname + '/private/form.html')
+    res.sendFile(__dirname + '/src/form.html')
   }) 
   .post((req, res) => {
     res.send(req.body.name + ', these are the results.' )

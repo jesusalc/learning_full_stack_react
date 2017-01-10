@@ -1,20 +1,3 @@
-: 1483639354:0;mkdir -p css build 
-: 1483639381:0;touch -p login.html register.html index.html app.js 
-: 1483639388:0;touch login.html register.html index.html app.js 
-: 1483639426:0;git config --local user.name "jesusalc"
-: 1483639440:0;git config --local user.email "jesusalc@gmail.com"
-: 1483639489:0;add first commit 
-: 1483800084:0;ps
-: 1483800111:0;mv .dir_bash_history .tutorial
-: 1483800133:0;rm .dir_bash_history
-: 1483800134:0;l
-: 1483800145:0;added .tutorial files
-: 1483800575:0;cp ../../coup/reactlesson2/package.json . 
-: 1483800580:0;cp ../../coup/reactlesson2/webpack.config.js .
-: 1483800613:0;git remote -v
-: 1483800661:0;mkdir public src
-: 1483800665:0;npm install
-: 1483800749:0;added package.json and webpack.config.js
 : 1483801365:0;echo ".DS_Store" >> .gitignore
 : 1483801389:0;added react 15.1 build files and ogt first index.html contents
 : 1483801709:0;added first element
@@ -58,7 +41,6 @@
 : 1483905403:0;added password state validation 
 : 1483906010:0;npm i -D jest-cli
 : 1483909362:0;npm i -G jest-cli
-: 1483952630:0;ls
 : 1483952646:0;added ecma 6
 : 1483952665:0;touch simple_http_server.js
 : 1483953042:0;npm i -S http
@@ -76,26 +58,16 @@
 : 1484030476:0;added descriptions to route
 : 1484030517:0;mkdir private
 : 1484030528:0;touch private/form.html
-: 1484030829:0;gsb
 : 1484030850:0;created a simple form in express js
 : 1484030939:0;npm i -S body-parser
 : 1484031161:0;node index.
-: 1484031163:0;node index.js
-: 1484031166:0;gsb
 : 1484031449:0;node index.js
 : 1484031857:0;added express middleware
-: 1484036032:0;gsb
 : 1484036039:0;npm i -G express-generator
 : 1484036058:0;cd ..
-: 1484036069:0;express sample
 : 1484036083:0;express
-: 1484036690:0;exit
-: 1484036702:0;express sample
 : 1484036706:0;nvm lis
-: 1484036713:0;nvm upgrade
 : 1484036775:0;command -v nvm
-: 1484036864:0;exit
-: 1484036870:0;nvm ls
 : 1484036876:0;nvm upgrade
 : 1484037005:0;exit
 : 1484037014:0;node ls
@@ -110,12 +82,20 @@
 : 1484037860:0;touch webpack.config.js
 : 1484037916:0;npm i -S webpack react react-dom babel-core babel-preset-es2015 babel-preset-react babel-loader
 : 1484038043:0;ls
-: 1484038056:0;ll
 : 1484038067:0;cat login.html
 : 1484038069:0;cat register.html
 : 1484038070:0;rm login.html
 : 1484038072:0;rm register.html
 : 1484038086:0;ll
-: 1484038087:0;l
 : 1484038092:0;gsb
 : 1484038100:0;added webpack support
+: 1484038210:0;l
+: 1484038218:0;ls src
+: 1484038232:0;ls private
+: 1484038504:0;cd src
+: 1484038557:0;webpack -d
+: 1484038574:0;webpack 
+: 1484038656:0;git log
+: 1484038673:0;gco a4dd1a402bd61dcace66c76e2574f76c2f55191e
+: 1484038715:0;exit
+: 1484038726:0;failed webpack config 
