@@ -89,3 +89,13 @@
 : 1484028259:0;npm i -G http-server
 : 1484028272:0;gsb
 : 1484028279:0;added http-server 
+: 1484028649:0;http-server ./ -a localhost -p 3000
+: 1484028656:0;npm run http-server ./ -a localhost -p 3000
+: 1484028686:0;npm i -S http-server
+: 1484028695:0;npm run http-server ./ -a localhost -p 3000
+: 1484028698:0;http-server ./ -a localhost -p 3000
+: 1484028904:0;npm i -S express
+: 1484029022:0;touch index.js
+: 1484030026:0;node index.js
+: 1484030429:0;gsb
+: 1484030444:0;added express ecam 6 simple server
