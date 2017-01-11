@@ -99,3 +99,14 @@
 : 1484056871:0;mongo
 : 1484057070:0;npm start
 : 1484057374:0;added mongo js 
+: 1484057389:0;npm i -S ejs
+: 1484057455:0;mkdir views
+: 1484057564:0;mkdir views/layout
+: 1484057567:0;ls
+: 1484057567:0;l
+: 1484057572:0;l src
+: 1484057583:0;cat index.
+: 1484057586:0;cat index.html
+: 1484057606:0;cp index.html views/layout/empty.ejs
+: 1484136879:0;gsb
+: 1484136883:0;added ejs template 

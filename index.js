@@ -27,6 +27,7 @@ users_table.execute((err,r) => {
 
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended:true}))
+app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -40,7 +41,7 @@ app.get('/blog/*.html', (req, res) => {
 
 app.route('/register')
   .get((req, res) => {
-    res.send('Register get!')
+    res.render('layout/empty', {body:'I get it!'})
   })
   .post((req, res) => {
     res.send('Register post!')

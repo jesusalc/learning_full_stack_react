@@ -35,6 +35,7 @@
     "babel-preset-react": "^6.16.0",
     "babili-webpack-plugin": "0.0.7",
     "body-parser": "^1.15.2",
+    "ejs": "^2.5.5",
     "express": "^4.14.0",
     "http": "0.0.0",
     "http-server": "^0.9.0",
