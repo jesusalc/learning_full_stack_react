@@ -20,7 +20,7 @@ const path = require('path'),
             loader: 'babel-loader',
             exclude: 'node_modules',
             options: {
-              presets: ['react']
+              presets: ['es2015', 'react']
             }
           }]
         }

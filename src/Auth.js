@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactDOMServer from 'react-dom/server'
-import injectTapEventPlugin from 'react-tap-event-plugin';
+import injectTapEventPlugin from 'react-tap-event-plugin'
 
 // Needed for onTouchTap
 // http://stackoverflow.com/a/34015469/988941
-injectTapEventPlugin();
+injectTapEventPlugin()
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import TextField from 'material-ui/TextField'
 import { orange500, blue500 } from 'material-ui/styles/colors'
@@ -74,6 +74,7 @@ class Password extends React.Component {
     this.setState({[target.name]: target.value})
   }
   render() {
+    let msg = ""
     let ret = [<TextField
       key="password"
       type="password"
@@ -90,7 +91,7 @@ class Password extends React.Component {
 
     
     if (this.props.msg) {
-      ret.push(<div className="error-message">{this.props.msg}</div>)
+      ret.push(<div key="error" className="error-message">{this.props.msg}</div>)
     }  
     if (this.props.confirm) {
       ret[1] = <TextField
@@ -108,7 +109,7 @@ class Password extends React.Component {
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
     }
     if (this.state.password2.length && this.state.password1 != this.state.password2) {
-      msg = <div className="error-message">Both passwords must be the same</div>
+      msg = <div key="error"  className="error-message">Both passwords must be the same</div>
     }
     return <div>{ret}{msg}</div>
   }

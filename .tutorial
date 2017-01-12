@@ -100,3 +100,13 @@
 : 1484214869:0;npm run webpack:watch 
 : 1484214872:0;gsb
 : 1484214885:0;added .babelrc and Auth call from route
+: 1484214902:0;npm start
+: 1484215010:0;mv .babelrc .deletedbabelrc
+: 1484215035:0;npm start
+: 1484215360:0;npm run webpack:watch 
+: 1484215395:0;npm start
+: 1484215428:0;npm ls --depth Ãƒ¿
+: 1484215434:0;npm ls --depth 0
+: 1484215485:0;npm start
+: 1484216438:0;completed 
+: 1484216447:0;finished the whole tutorial

@@ -119,7 +119,7 @@ class Password extends React.Component {
       floatingLabelFocusStyle={styles.floatingLabelFocusStyle} />
     }
     if (this.state.password2.length && this.state.password1 != this.state.password2) {
-      msg = <div className="error-message">Both passwords must be the same</div>
+      msg = <div key="error" className="error-message">Both passwords must be the same</div>
     }
     return <div>{ret}{msg}</div>
   }
@@ -165,7 +165,7 @@ class Login extends React.Component {
 
 class Register extends React.Component {
   render() {
-    return <form method="post" acceptCharset="utf-8" action="/u/register">
+    return <form method="post" acceptCharset="utf-8" action="/register">
       <input type="hidden" name="_method" value="POST" />
       <Email />
       <Password confirm="1" />

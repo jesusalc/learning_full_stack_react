@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/*.js -do public/bundle.js",
+    "babel": "babel --presets es2015 src/*.js -o public/bundle.js",
     "test": "jest",
     "start": "node index",
     "webpack": "webpack -d",

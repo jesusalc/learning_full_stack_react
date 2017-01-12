@@ -51,6 +51,28 @@ app.route('/register')
     })
   })
   .post((req, res) => {
+    let db = mongojs('mysite', ['users'])
+    let email = req.body.email
+    let password = req.body.password1
+    let postRes = res
+
+    if (password !== req.body.password2){
+      let body = Auth.register('Passwords dont match')
+    res.render('layout/overlay', {
+      title: "Register!",
+      body:body
+    })
+    } else {
+      db.users.count({email: email}, (req, res) => {
+        if (res) {
+          postRes.redirect("/login")
+        } else {
+          db.users.insert({email:email, password:password})
+          postRes.send('You have been added:' +email)
+        }
+      })
+    }
+
     res.send('Register post!')
   })
 
