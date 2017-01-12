@@ -1,6 +1,7 @@
 const express = require('express'),
       app = express(),
       mongojs = require('mongojs'),
+      AuthView = require('./src/Auth'),
       bodyParser = require('body-parser'), 
       port = 3000, 
       servername = "localhost", 
@@ -43,9 +44,10 @@ app.get('/blog/*.html', (req, res) => {
 
 app.route('/register')
   .get((req, res) => {
+    let body = Auth.register('this is a message from our server')
     res.render('layout/overlay', {
       title: "Register!",
-      body:'I get it!'
+      body:body
     })
   })
   .post((req, res) => {

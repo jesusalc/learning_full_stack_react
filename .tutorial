@@ -1,16 +1,3 @@
-: 1483807625:0;fixed typos 
-: 1483807891:0;separated email from forms as common element
-: 1483807966:0;added email component into login and register 
-: 1483808064:0;npm i -S material.ui
-: 1483808069:0;npm i -S material-ui
-: 1483808548:0;added material ui 
-: 1483808641:0;upgraded buttons to material ui buttons 
-: 1483808689:0;deleted bootstap shit in html 
-: 1483809300:0;upgraded forms inputs with material ui
-: 1483901041:0;upgraded to ecma 6 app.js
-: 1483901309:0;npm i -S react-tap-event-plugin 
-: 1483901737:0;fixed missing touch screen pluging
-: 1483904073:0;added key to password and email 
 : 1483904744:0;added onChange to passwords
 : 1483905403:0;added password state validation 
 : 1483906010:0;npm i -D jest-cli
@@ -80,11 +67,7 @@
 : 1484040148:0;React-Redux-Tick-Tack-Toe
 : 1484040235:0;webpack
 : 1484040311:0;pwd
-: 1484040312:0;l
 : 1484051929:0;cd ..
-: 1484054765:0;ls
-: 1484054767:0;gsb
-: 1484054877:0;npm start
 : 1484055169:0;ls /data
 : 1484055179:0;mkdir -p /data/db
 : 1484055197:0;sudo mkdir -p /data/db
@@ -97,23 +80,23 @@
 : 1484056426:0;npm i -S mongojs
 : 1484056455:0;added mongo support
 : 1484056871:0;mongo
-: 1484057070:0;npm start
 : 1484057374:0;added mongo js 
 : 1484057389:0;npm i -S ejs
 : 1484057455:0;mkdir views
 : 1484057564:0;mkdir views/layout
 : 1484057567:0;ls
-: 1484057567:0;l
 : 1484057572:0;l src
 : 1484057583:0;cat index.
 : 1484057586:0;cat index.html
 : 1484057606:0;cp index.html views/layout/empty.ejs
-: 1484136879:0;gsb
 : 1484136883:0;added ejs template 
-: 1484137109:0;npm start
 : 1484137238:0;npm run webpack:watch 
 : 1484137375:0;npm start
-: 1484213919:0;gsb
 : 1484213934:0;finished adding ejs template with route 
 : 1484214418:0;gsb
 : 1484214429:0;added Auth.js 
+: 1484214443:0;l
+: 1484214454:0;touch .babelrc
+: 1484214869:0;npm run webpack:watch 
+: 1484214872:0;gsb
+: 1484214885:0;added .babelrc and Auth call from route
