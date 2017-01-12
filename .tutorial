@@ -110,3 +110,8 @@
 : 1484057606:0;cp index.html views/layout/empty.ejs
 : 1484136879:0;gsb
 : 1484136883:0;added ejs template 
+: 1484137109:0;npm start
+: 1484137238:0;npm run webpack:watch 
+: 1484137375:0;npm start
+: 1484213919:0;gsb
+: 1484213934:0;finished adding ejs template with route 

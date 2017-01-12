@@ -5,9 +5,11 @@ const express = require('express'),
       port = 3000, 
       servername = "localhost", 
       routelist = `
-      Server Running on http://${servername}:${port}
-      Server Running on http://${servername}:${port}/form
-      Server Running on http://${servername}:${port}/error`,
+  Server Running on http://${servername}:${port}
+  Server Running on http://${servername}:${port}/form
+  Server Running on http://${servername}:${port}/error
+  Server Running on http://${servername}:${port}/register
+  `,
       db = mongojs('mongo-sample', ['users']), 
       users_table = db.users.initializeOrderedBulkOp()
 
@@ -41,7 +43,10 @@ app.get('/blog/*.html', (req, res) => {
 
 app.route('/register')
   .get((req, res) => {
-    res.render('layout/empty', {body:'I get it!'})
+    res.render('layout/overlay', {
+      title: "Register!",
+      body:'I get it!'
+    })
   })
   .post((req, res) => {
     res.send('Register post!')
