@@ -1,13 +1,3 @@
-: 1483904744:0;added onChange to passwords
-: 1483905403:0;added password state validation 
-: 1483906010:0;npm i -D jest-cli
-: 1483909362:0;npm i -G jest-cli
-: 1483952646:0;added ecma 6
-: 1483952665:0;touch simple_http_server.js
-: 1483953042:0;npm i -S http
-: 1483953070:0;npm i -S isarray
-: 1483953080:0;node simple_http_server.js
-: 1483953413:0;added simple ecma 6 http server
 : 1484028259:0;npm i -G http-server
 : 1484028279:0;added http-server 
 : 1484028686:0;npm i -S http-server
@@ -67,7 +57,6 @@
 : 1484040148:0;React-Redux-Tick-Tack-Toe
 : 1484040235:0;webpack
 : 1484040311:0;pwd
-: 1484051929:0;cd ..
 : 1484055169:0;ls /data
 : 1484055179:0;mkdir -p /data/db
 : 1484055197:0;sudo mkdir -p /data/db
@@ -90,26 +79,28 @@
 : 1484057586:0;cat index.html
 : 1484057606:0;cp index.html views/layout/empty.ejs
 : 1484136883:0;added ejs template 
-: 1484137238:0;npm run webpack:watch 
-: 1484137375:0;npm start
 : 1484213934:0;finished adding ejs template with route 
-: 1484214418:0;gsb
 : 1484214429:0;added Auth.js 
-: 1484214443:0;l
 : 1484214454:0;touch .babelrc
-: 1484214869:0;npm run webpack:watch 
-: 1484214872:0;gsb
 : 1484214885:0;added .babelrc and Auth call from route
-: 1484214902:0;npm start
 : 1484215010:0;mv .babelrc .deletedbabelrc
-: 1484215035:0;npm start
 : 1484215360:0;npm run webpack:watch 
-: 1484215395:0;npm start
 : 1484215428:0;npm ls --depth Ãƒ¿
 : 1484215434:0;npm ls --depth 0
 : 1484215485:0;npm start
 : 1484216438:0;completed 
 : 1484216447:0;finished the whole tutorial
 : 1484303800:0;gsb
-: 1484303802:0;cd ..
 : 1484303813:0;added nothing
+: 1484303818:0;cd ..
+: 1485176180:0;l 
+: 1485592126:0;cd /_
+: 1485595328:0;l
+: 1485595335:0;cat .editorconfig
+: 1485598340:0;git remote
+: 1485598344:0;git remote -v
+: 1485598509:0;npm start
+: 1485598627:0;npm ls --depth 0
+: 1485598657:0;git log 
+: 1485598676:0;gco 61d0383427c457208a23eb8b36315e9d26fece61
+: 1485598702:0;changed ".tutorial" ; gco 61d0383427c457208a23eb8b36315e9d26fece61 
